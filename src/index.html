@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Hyperskill cafe</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
@@ -53,11 +52,11 @@
                 <img src="images/cup%20of%20coffee.jpg" alt="cup of coffee" class="img-fluid w-100"/>
             </div>
         </div>
-        <div id="about" class="container-fluid bg-light p-0">
+        <div class="container-fluid bg-light p-0">
             <div class="container-fluid p-0">
                 <img class="img-fluid" src="images/coffee.jpg" alt="coffee" width="100%"/>
             </div>
-            <div class="container-fluid p-5">
+            <div id="about" class="container-fluid p-5">
                 <h2 class="display-5 fw-bold">About Us</h2>
                 <p class="py-3 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
@@ -140,11 +139,11 @@
                         <form id="reviewForm"  class="row g-3">
                             <div class="col-md-4 ">
                                 <label class="form-label" for="reviewTitle">Title</label>
-                                <input id="reviewTitle" class="form-control" type="text"/>
+                                <input id="reviewTitle" class="form-control" type="text"  required/>
                             </div>
                             <div class="col-md-4">
                                 <label class="form-label" for="reviewText">Comment</label>
-                                <input id="reviewText" class="form-control" type="text"/>
+                                <input id="reviewText" class="form-control" type="text"  required/>
                             </div>
                             <div class="col-md-4">
                                 <label class="form-label" for="reviewName">Name</label>
@@ -193,6 +192,23 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="text-center">
+                <img src="images/cakeOne.jpg" alt="cakes">
+                <img src="images/cakeTwo.jpg" width="236px" height="354px" alt="macaroons">
+                <img src="images/cakeThree.jpg" width="236px" height="354px" alt="donuts">
+                <img src="images/cakeFour.jpg" width="236px" height="354px" alt="ice cream">
+            </div>
+        </div>
+        <div id="contact" class="d-flex flex-column-reverse flex-md-row p-0 bg-light bg-image" style="
+    background-image: url('images/background.jpg');
+    height: 400px;">
+            <h2 class="display-5 pt-5 px-15 fw-bold p-5">Contact Us</h2>
+            <div class="container-fluid p-5">
+                <a class="text-decoration-none  text-dark" href="tel:+1234567890">+1234567890</a>
+            </div>
+            <div class="container-fluid p-5">
+                <a class="text-decoration-none text-dark" href="mailto:stopWar@example.com">stopWar@example.com</a>
             </div>
         </div>
     </div>
